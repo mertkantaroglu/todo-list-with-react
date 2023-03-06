@@ -1,0 +1,14 @@
+.header {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+  text-align: center;
+  padding: "20px 0";
+  line-height: "1.5em";
+  color: #aeadad;
+}
+
+.header p {
+  font-size: 1rem;
+}
