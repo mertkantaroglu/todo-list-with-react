@@ -1,5 +1,5 @@
-import { useAuthContext } from "../context/AuthContext";
-import styles from "../styles/Profile.module.css";
+import { useAuthContext } from '../context/AuthContext';
+import styles from '../styles/Profile.module.css';
 
 const Profile = () => {
   const { user } = useAuthContext() || {}; // add fallback object to avoid destructuring null
@@ -10,7 +10,7 @@ const Profile = () => {
       <div className={styles.profile}>
         <h2>
           Hello,
-          {user || " Guest"}
+          {user || ' Guest'}
           {/* check if user is null */}
         </h2>
       </div>

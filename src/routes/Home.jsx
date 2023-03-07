@@ -1,7 +1,7 @@
-import TodosLogic from "../components/TodosLogic";
+import TodosLogic from '../components/TodosLogic';
 
 const Home = () => (
-  <div className='todos'>
+  <div className="todos">
     <TodosLogic />
   </div>
 );
