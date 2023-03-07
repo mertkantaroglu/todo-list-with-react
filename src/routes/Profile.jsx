@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import { useAuthContext } from "../context/AuthContext";
 import styles from "../styles/Profile.module.css";
 
@@ -7,9 +6,7 @@ const Profile = () => {
 
   return (
     <div>
-      <Header>
-        <h1>Profile.</h1>
-      </Header>
+      <h1>Profile Page</h1>
       <div className={styles.profile}>
         <h2>
           Hello,
