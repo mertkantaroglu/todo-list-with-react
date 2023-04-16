@@ -25,12 +25,6 @@ const TodosLogic = () => {
     }));
   };
 
-  const delTodo = (id) => {
-    setTodos([
-      ...todos.filter((todo) => todo.id !== id),
-    ]);
-  };
-
   const addTodoItem = (title) => {
     const newTodo = {
       id: uuidv4(),
@@ -66,7 +60,6 @@ const TodosLogic = () => {
       <TodosList
         todosProps={todos}
         handleChange={handleChange}
-        delTodo={delTodo}
         setUpdate={setUpdate}
       />
     </div>
